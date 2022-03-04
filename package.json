@@ -2,7 +2,7 @@
     "name": "small-business-nextjs-theme",
     "version": "0.1.0",
     "engines": {
-        "node": ">=14 <16",
+        "node": ">=14 <=16",
         "npm": "~6"
     },
     "scripts": {
@@ -47,5 +47,6 @@
     },
     "description": "A Nextjs page builder, component library and data source mapper all in one.",
     "main": "next.config.js",
-    "license": "MIT"
+    "license": "MIT",
+    "packageManager": "yarn@3.2.0"
 }
